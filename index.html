@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Davvv — David Raihan</title>
+<meta name="description" content="Davvv, identitas digital David Raihan. Masih belajar, terus membangun: coding, teknologi, dan web.">
+<link rel="canonical" href="https://davvv.biz.id/">
+<meta name="theme-color" content="#000000">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="id_ID">
+<meta property="og:site_name" content="Davvv">
+<meta property="og:title" content="Davvv — David Raihan">
+<meta property="og:description" content="Still learning, still building.">
+<meta property="og:url" content="https://davvv.biz.id/">
+<meta property="og:image" content="https://davvv.biz.id/assets/social-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<svg class="sr" aria-hidden="true" focusable="false"><symbol id="dv" viewBox="0 0 64 64"><path fill="currentColor" fill-rule="evenodd" d="M4 10h6a22 22 0 0 1 0 44H4zM12 18.14V45.86A14 14 0 0 0 12 18.14z"/><path fill="currentColor" d="M36 10h8l4 26 4-26h8L52 54h-8z"/></symbol></svg>
+
+<div id="intro" aria-hidden="true"><svg><use href="#dv"/></svg></div>
+<a class="skip" href="#main" data-i="skip"></a>
+
+<header>
+  <div class="w bar">
+    <a class="brand" href="#top" aria-label="Davvv"><svg class="mk"><use href="#dv"/></svg>Davvv</a>
+    <nav>
+      <a href="#about" data-i="nAbout"></a>
+      <a href="#skills" data-i="nSkills"></a>
+      <a href="#projects" data-i="nProjects"></a>
+      <a href="#contact" data-i="nContact"></a>
+    </nav>
+    <div class="act">
+      <button id="lang" type="button"></button>
+      <button id="kb" type="button" aria-haspopup="dialog"><span data-i="menu"></span><kbd id="kbk"></kbd></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section id="top" class="w hero">
+    <div>
+      <p class="tag"><span class="dot"></span><span data-i="learning"></span></p>
+      <h1 data-i="h1"></h1>
+      <p class="lead" data-i="lead"></p>
+      <p class="cta">
+        <a class="btn pri" href="#about" data-i="nAbout"></a>
+        <a class="btn" href="#skills" data-i="nSkills"></a>
+        <a class="btn" href="#projects" data-i="nProjects"></a>
+        <a class="btn" href="#contact" data-i="nContact"></a>
+      </p>
+      <p class="soc">
+        <a href="https://github.com/davvv22" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://www.instagram.com/david.vnxzy" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.tiktok.com/@dvdraii" target="_blank" rel="noopener noreferrer">TikTok</a>
+      </p>
+    </div>
+    <figure class="ph">
+      <svg class="mk" aria-hidden="true"><use href="#dv"/></svg>
+      <img id="pf" src="https://i.ibb.co/gZHp1wTb/527153-enhanced-2880x3840.jpg" width="720" height="960" alt="" data-a="alt:altPf" fetchpriority="high" decoding="async" referrerpolicy="no-referrer">
+    </figure>
+  </section>
+
+  <section id="about" class="w sec">
+    <h2 data-i="nAbout"></h2>
+    <div class="prose"><p data-i="a1"></p><p data-i="a2"></p></div>
+  </section>
+
+  <section id="skills" class="w sec">
+    <h2 data-i="tSkills"></h2>
+    <ul class="rows" id="sk"></ul>
+  </section>
+
+  <section id="projects" class="w sec">
+    <h2 data-i="nProjects"></h2>
+    <div class="empty" id="pe"><h3>Projects in Progress</h3><p data-i="pe"></p></div>
+    <ul class="cards" id="plist" hidden></ul>
+    <h3 class="sub">GitHub</h3>
+    <div id="gh" aria-live="polite"></div>
+  </section>
+
+  <section id="terminal" class="w sec">
+    <h2 data-i="tTerm"></h2>
+    <div class="term">
+      <div id="out" role="log" aria-live="polite"></div>
+      <form id="tf" autocomplete="off">
+        <label for="ti" class="sr" data-i="cmd"></label>
+        <span aria-hidden="true">$</span>
+        <input id="ti" spellcheck="false" autocapitalize="none" autocorrect="off" enterkeyhint="send">
+      </form>
+    </div>
+  </section>
+
+  <section id="status" class="w sec">
+    <h2 data-i="tStatus"></h2>
+    <dl class="kv">
+      <div><dt data-i="lJkt"></dt><dd id="clk"></dd><dd id="dt"></dd></div>
+      <div><dt>GitHub API</dt><dd id="ghs"></dd></div>
+    </dl>
+    <p class="note" data-i="stNote"></p>
+  </section>
+
+  <section id="music" class="w sec">
+    <h2 data-i="tMusic"></h2>
+    <p class="song">Lose Yourself<span>Eminem</span></p>
+    <p class="links">
+      <a class="btn" href="https://open.spotify.com/search/Lose%20Yourself%20Eminem" target="_blank" rel="noopener noreferrer" data-i="spot"></a>
+      <a class="btn" href="https://www.youtube.com/results?search_query=Eminem+Lose+Yourself" target="_blank" rel="noopener noreferrer" data-i="yt"></a>
+    </p>
+  </section>
+
+  <section id="social" class="w sec">
+    <h2 data-i="tSocial"></h2>
+    <ul class="rows hub" id="sl">
+      <li><a href="https://github.com/davvv22" target="_blank" rel="noopener noreferrer"><span>GitHub</span><span class="mut">github.com/davvv22</span></a></li>
+      <li><a href="https://www.instagram.com/david.vnxzy" target="_blank" rel="noopener noreferrer"><span>Instagram</span><span class="mut">@david.vnxzy</span></a></li>
+      <li><a href="https://www.tiktok.com/@dvdraii" target="_blank" rel="noopener noreferrer"><span>TikTok</span><span class="mut">@dvdraii</span></a></li>
+      <li><a href="https://x.com/davvv224" target="_blank" rel="noopener noreferrer"><span>X</span><span class="mut">@davvv224</span></a></li>
+      <li><a href="https://www.youtube.com/@dvdraii" target="_blank" rel="noopener noreferrer"><span>YouTube</span><span class="mut">@dvdraii</span></a></li>
+      <li><a href="mailto:david2204raihan@gmail.com"><span>Email</span><span class="mut">david2204raihan@gmail.com</span></a></li>
+    </ul>
+  </section>
+
+  <section id="contact" class="w sec">
+    <h2 data-i="nContact"></h2>
+    <form id="cf" novalidate>
+      <input type="hidden" name="access_key" value="a4c4b348-6d5c-4658-a077-d7fd76b2adb6">
+      <input type="hidden" name="subject" value="Pesan baru dari davvv.biz.id">
+      <input type="hidden" name="from_name" value="Davvv Portfolio">
+      <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <p><label for="n" data-i="fName"></label><input id="n" name="name" autocomplete="name" required aria-describedby="e-name"><span class="err" id="e-name" data-i=""></span></p>
+      <p><label for="m" data-i="fEmail"></label><input id="m" name="email" type="email" autocomplete="email" required aria-describedby="e-email"><span class="err" id="e-email" data-i=""></span></p>
+      <p><label for="g" data-i="fMsg"></label><textarea id="g" name="message" rows="5" required aria-describedby="e-message"></textarea><span class="err" id="e-message" data-i=""></span></p>
+      <button class="btn pri" type="submit" id="sb" data-i="send"></button>
+      <p id="cs" class="cs" role="status" data-i=""></p>
+    </form>
+    <p class="note"><span data-i="mailAlt"></span> <a href="mailto:david2204raihan@gmail.com">david2204raihan@gmail.com</a></p>
+  </section>
+</main>
+
+<footer class="w foot">
+  <span>© <span id="yr"></span> Davvv</span>
+  <a href="https://github.com/davvv22" target="_blank" rel="noopener noreferrer">GitHub</a>
+  <a href="mailto:david2204raihan@gmail.com">Email</a>
+</footer>
+
+<dialog id="pal" data-a="aria-label:palL">
+  <input id="pi" role="combobox" aria-expanded="true" aria-controls="pl2" aria-autocomplete="list" autocomplete="off" spellcheck="false" data-a="placeholder:palP">
+  <ul id="pl2" role="listbox"></ul>
+</dialog>
+</body>
+</html>
